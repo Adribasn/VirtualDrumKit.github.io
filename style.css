@@ -92,3 +92,20 @@ body {
         scale: 100%;
     }
 }
+
+@media (max-width: 400px) {
+   .drum-kit {
+       height: 350px;
+       width: 350px;
+       margin-top: 159px;
+   }
+
+   .key {
+       max-height: 56px;
+       width: 56px;
+       margin-top: 42px;
+       margin-bottom: 42px;
+       margin-left: 21px;
+       margin-right: 21px;
+   }
+}
